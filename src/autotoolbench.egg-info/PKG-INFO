@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: autotoolbench
+Version: 0.1.0
+Summary: Adaptive tool-calling agent benchmark under budget constraints
+Author-email: AI Agent Engineer <ai@example.com>
+Requires-Python: >=3.10
+Requires-Dist: typer
+Requires-Dist: pydantic
+Requires-Dist: rich
