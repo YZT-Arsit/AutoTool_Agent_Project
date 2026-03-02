@@ -1,0 +1,15 @@
+{"task_id": "T001", "instruction": "select * from users and write to file report.txt", "expected_artifacts": ["report.txt"], "validator": "file_exists", "validator_params": {"path": "report.txt"}}
+{"task_id": "T002", "instruction": "select * from users", "expected_artifacts": [], "validator": "sql_has_rows", "validator_params": {"query": "SELECT * FROM users"}}
+{"task_id": "T003", "instruction": "select * from users", "expected_artifacts": [], "validator": "sql_has_rows", "validator_params": {"query": "SELECT * FROM users"}}
+{"task_id": "T004", "instruction": "select * from users", "expected_artifacts": [], "validator": "sql_has_rows", "validator_params": {"query": "SELECT * FROM users"}}
+{"task_id": "T005", "instruction": "select * from users", "expected_artifacts": [], "validator": "sql_has_rows", "validator_params": {"query": "SELECT * FROM users"}}
+{"task_id": "T006", "instruction": "search logs for ERROR", "expected_artifacts": [], "validator": "file_exists", "validator_params": {"path": "logs/app.log"}}
+{"task_id": "T007", "instruction": "search logs for ERROR", "expected_artifacts": [], "validator": "file_exists", "validator_params": {"path": "logs/app.log"}}
+{"task_id": "T008", "instruction": "search logs for ERROR", "expected_artifacts": [], "validator": "file_exists", "validator_params": {"path": "logs/app.log"}}
+{"task_id": "T009", "instruction": "search logs for ERROR", "expected_artifacts": [], "validator": "file_exists", "validator_params": {"path": "logs/app.log"}}
+{"task_id": "T010", "instruction": "search logs for ERROR", "expected_artifacts": [], "validator": "file_exists", "validator_params": {"path": "logs/app.log"}}
+{"task_id": "T011", "instruction": "write greeting to file email.txt", "expected_artifacts": ["email.txt"], "validator": "file_exists", "validator_params": {"path": "email.txt"}}
+{"task_id": "T012", "instruction": "write greeting to file email.txt", "expected_artifacts": ["email.txt"], "validator": "file_exists", "validator_params": {"path": "email.txt"}}
+{"task_id": "T013", "instruction": "write greeting to file email.txt", "expected_artifacts": ["email.txt"], "validator": "file_exists", "validator_params": {"path": "email.txt"}}
+{"task_id": "T014", "instruction": "write greeting to file email.txt", "expected_artifacts": ["email.txt"], "validator": "file_exists", "validator_params": {"path": "email.txt"}}
+{"task_id": "T015", "instruction": "write greeting to file email.txt", "expected_artifacts": ["email.txt"], "validator": "file_exists", "validator_params": {"path": "email.txt"}}
