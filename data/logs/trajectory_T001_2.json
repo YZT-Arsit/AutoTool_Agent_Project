@@ -1,0 +1,35 @@
+{
+  "task_id": "T001",
+  "steps": [
+    {
+      "timestamp": 1772440160.067297,
+      "subgoal": "select * from users",
+      "tool": "sql_query",
+      "input": {
+        "query": "select * from users"
+      },
+      "output": [
+        {
+          "id": 1,
+          "name": "alice",
+          "age": 30
+        },
+        {
+          "id": 2,
+          "name": "bob",
+          "age": 25
+        }
+      ],
+      "error": null,
+      "reflection": null,
+      "replanned": false,
+      "budget": {
+        "calls": 1,
+        "steps": 1,
+        "time": 0.0,
+        "tokens": 0
+      }
+    }
+  ],
+  "success": true
+}
