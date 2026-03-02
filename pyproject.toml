@@ -1,0 +1,17 @@
+[project]
+name = "autotoolbench"
+version = "0.1.0"
+description = "Adaptive tool-calling agent benchmark under budget constraints"
+authors = [{name = "AI Agent Engineer", email = "ai@example.com"}]
+
+dependencies = [
+    "typer",
+    "pydantic",
+    "rich"
+]
+
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
